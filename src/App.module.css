@@ -1,0 +1,116 @@
+.app {
+  min-height: 100vh;
+  background-color: #f8f7f2;
+  color: #253b32;
+}
+
+/* HEADER */
+
+.header {
+  background-color: #253b32;
+  color: white;
+  padding: 30px 8% 90px;
+}
+
+.logo {
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  border-bottom: 1px solid #ffffff40;
+  padding-bottom: 25px;
+}
+
+/* OVERSKRIFT */
+
+.hero {
+  text-align: center;
+  padding-top: 80px;
+}
+
+.subtitle {
+  color: #d9b879;
+  font-size: 12px;
+  letter-spacing: 4px;
+  font-weight: bold;
+}
+
+.hero h1 {
+  font-family: Georgia, serif;
+  font-size: 70px;
+  font-weight: normal;
+  margin: 20px 0;
+}
+
+.description {
+  font-size: 16px;
+  color: #deded8;
+}
+
+/* MENYOMRÅDE */
+
+.main {
+  max-width: 1200px;
+  margin: auto;
+  padding: 80px 30px;
+}
+
+.menuHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 35px;
+}
+
+.smallTitle {
+  color: #a4824a;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.menuHeader h2 {
+  font-family: Georgia, serif;
+  font-size: 38px;
+  font-weight: normal;
+  margin: 10px 0 0;
+}
+
+.menuCount {
+  font-size: 14px;
+  color: #777;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: #253b32;
+  color: white;
+  text-align: center;
+  padding: 45px 20px;
+}
+
+.footer p:first-child {
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+
+.footer p:last-child {
+  font-size: 13px;
+  color: #cccccc;
+}
+
+/* MOBIL */
+
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 48px;
+  }
+
+  .menuHeader {
+    display: block;
+  }
+
+  .main {
+    padding: 50px 20px;
+  }
+}

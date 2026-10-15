@@ -1,0 +1,99 @@
+/* SELVE MATKORTET */
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #e8e5dc;
+  border-radius: 12px;
+  padding: 28px;
+  box-shadow: 0 5px 20px #00000008;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  min-height: 230px;
+
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+}
+
+/* HOVER-EFFEKT */
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px #00000015;
+}
+
+/* ØVERSTE DEL AV KORTET */
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+/* KATEGORI */
+
+.category {
+  background-color: #edf2ec;
+  color: #496b50;
+  padding: 7px 12px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* PRIS */
+
+.price {
+  color: #a4824a;
+  font-size: 17px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+/* INNHOLD */
+
+.content {
+  margin-top: 25px;
+}
+
+/* TITTEL */
+
+.content h3 {
+  font-family: Georgia, serif;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0 0 12px;
+  color: #253b32;
+}
+
+/* INGREDIENSER */
+
+.ingredients {
+  color: #777;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* NEDERSTE DEL AV KORTET */
+
+.bottom {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 25px;
+  padding-top: 15px;
+  border-top: 1px solid #eeeeee;
+  color: #a4824a;
+}
+
+.bottom p {
+  font-size: 12px;
+  font-style: italic;
+  margin: 0;
+}
